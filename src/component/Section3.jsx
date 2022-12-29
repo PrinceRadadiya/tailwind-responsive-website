@@ -4,7 +4,7 @@ const Section3 = () => {
 
   return (
     <>
-      <div className="w-full bg-black py-16 px-4">
+      <div className="w-full bg-black py-2 px-4">
         <div className="max-w-[1240] text-amber-50">
           <div className=" mx-auto grid md:grid-cols-2">
 
