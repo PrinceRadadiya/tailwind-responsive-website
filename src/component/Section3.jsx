@@ -18,7 +18,7 @@ const Section3 = () => {
             </div>
 
             <div className="my-5">
-              <div className="flex flex-col sm:flex-row items-center justify-between w- w-full"></div>
+              <div className="flex flex-col sm:flex-row items-center justify-between w-full"></div>
               <input
                 className="w-[320px] h-[40px] rounded border-none text-black "
                 type="Email"

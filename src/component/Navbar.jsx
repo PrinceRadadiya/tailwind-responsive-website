@@ -9,9 +9,9 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white ">
-        <h1 className="w-full text-3xl font-bold  ">PRINCE.</h1>
-        <ul className="hidden md:flex">
+      <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white w-full">
+        <h1 className="w-full text-3xl font-bold">PRINCE.</h1>
+        <ul className="hidden md:flex cursor-pointer">
           <li className="p-4">Home</li>
           <li className="p-4">Company</li>
           <li className="p-4">Resources</li>
@@ -21,6 +21,7 @@ const Navbar = () => {
         <div onClick={Clickand} className="block md:hidden">
           {!Nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
+
         <div
           className={
             !Nav
